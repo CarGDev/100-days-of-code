@@ -4,21 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
+  <div class="title">
+    <h1 class="title-data">Data required</h1>
+  </div>
   <div class="form">
-    <label for="form-name">Name:*</label>
-    <input type="text" name="" class="form-name">
-    <label for="form-lastname">Last name:*</label>
-    <input type="text" class="form-lastname">
-    <label for="form-email">E-mail</label>
-    <input type="mail" class="form-email">
-    <label for="form-password">Password</label>
-    <input type="password" class="form-password">
-    <button>Accept</button>
-    <button>Cancel</button>
+    <section class="form-name">
+      <label for="name-input" class="form-name__label">Name:*</label>
+      <input type="text" class="form-name__input" id="name-input">
+    </section>
+    <section class="form-lastname">
+      <label for="lastname-input" class="form-lastname__input" class="form-lastname__label">Last name:*</label>
+      <input type="text" class="form-lastname__input" id="lastname-input">
+    </section>
+    <section class="form-email">
+      <label for="email-input" class="form-email__label">E-mail:*</label>
+      <input type="mail" class="form-email__input" id="email-input">
+    </section>
+    <section class="form-password">
+      <label for="password-input" class="form-password__label">Password:*</label>
+      <input type="password" class="form-password__input" id="password-input">
+    </section>
+    <section class="form-buttons">
+      <button class="form-buttons__accept">Accept</button>
+      <button class="form-buttons__cancel">Cancel</button>
+    </section>
   </div>
 </body>
 </html>
