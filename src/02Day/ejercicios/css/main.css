@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+}
+.container {
+  display: grid;
+  grid-gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 100px);
+
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: left; */
+  /* justify-content: right; */
+  /* justify-content: safe; */
+  /* justify-content: unsafe; */
+  /* justify-content: stretch; */
+  /* justify-content: space-evenly; */
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: baseline; */
+  /* justify-content: first baseline; */
+  /* justify-content: last baseline; */
+  /* justify-content: initial; */
+  /* justify-content: inherit; */
+  justify-content: last baseline;
+  align-items: stretch;
+  /*justify-content | align-content: start end center stretch space-around space-between space-evenly;*/
+  /* justify-content: center; Alinea de forma horizontal */
+  /* align-content: center; /*Alinea de forma vertical */
+  /*justify-items : start end center stretch;*/
+  /*justify-items: center;*/
+  /*align-items: start end center stretch;*/
+  /*align-items: start end center stretch;*/
+  /*align-items: center;*/
+}
+.item {
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid red;
+  /*margin-right: 10px;*/
+  /*margin-bottom: 10px;*/
+}
+/*.item:nth-of-type(5) {
+  align-self:start;
+  justify-self: start;
+}*/
